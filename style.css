@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #000000;
+    background: linear-gradient(#4169e1,#ffbd88);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+     text-align: center;
+     background-position: unset;
+     
+}
+h1{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+nav{
+    position: relative;
+    top:0;
+    left: 0;
+}
+#img1 img{
+    border: 1px solid white;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    left: 0;
+    margin: 0;
+    padding:0;
+    height: 90vh;
+    width: 100%;
+}
+a:hover{
+ color: yellow;
+}
+figcaption{
+    font-size: xx-large;
+    
+}
+.content-table{
+    border-collapse: collapse;
+    background: linear-gradient(#f5deb3,#87ceeb);
+    position: relative;
+    left: 50px;
+    border-radius:  20px;
+    
+}
+.content-table thead tr{
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid red;
+    text-align: left;
+    
+}
+.content-table tfoot tr{
+    background-color: darkcyan;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+}
+.content-table tbody tr:nth-child(even){
+    background-color: azure;
+    text-align: start;
+}
+.content-table tbody tr:nth-child(odd){
+    text-align: left;
+    text-decoration: #000000;
+    vertical-align: text-top;
+}
+.content-table tbody tr.active{
+text-align: left;
+    
+}
+.content-table th,
+.content-table td{
+    padding: 15px 12px;
+}
+.info{
+    border: 2px solid #000000;
+    cursor: pointer;
+    padding: 5px ;
+    width: fit-content;
+    max-width: auto;
+    margin: auto;
+    
+
+}
+.data{
+    display: block;
+    border: 2px hidden yellow;
+    border-spacing: 5px;
+    padding: 4px;
+    width: 100%;
+    align-items: center;
+}
+label{
+    border: 2px hidden yellow;
+    diplay:block;
+    
+}
+label:hover{
+    background-color:green;
+    cursor: pointer;
+}
+button{
+    background-color: blue;
+    color: aliceblue;
+    
+}
+button:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.video{
+    background-color: #ffffff;
+    align-items: flex-start;
+    width: fit-content;
+}
+h4{
+    text-align: left;
+    font-size: large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shopping-site{
+    text-align: left;
+    border: 1px solid yellow;
+    width: fit-content;
+}
